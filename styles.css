@@ -1,1 +1,14 @@
-/*  your css code here. If applicable */
+/* Style for table headers */
+table th {
+  background-color: yellow;
+}
+
+/* Style for table data cells */
+table td {
+  background-color: yellow;
+}
+
+/* Style for alternating rows */
+table tr:nth-child(even) {
+  background-color: yellow;
+}
